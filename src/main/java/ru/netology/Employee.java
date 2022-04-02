@@ -19,4 +19,9 @@ public class Employee {
         this.country = country;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + ". id = " + id + ". " + country + " . Возраст: " + age + ".";
+    }
 }
